@@ -11,6 +11,7 @@
         allow(dead_code, unused_assignments, unused_variables)
     )
 ))]
+#![feature(waker_getters)]
 
 #[cfg(feature = "alloc")]
 extern crate alloc;
